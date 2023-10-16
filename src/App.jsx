@@ -3,10 +3,7 @@ import Counter from './components/Counter'
 
 import Cute from './assets/cute.jpg'
 
-import useCountdown from './hooks/useCountdown'
-
-
-
+import useCountdown from './hooks/useCountdown
 import './App.css'
 
 function App() {
