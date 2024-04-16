@@ -22,8 +22,8 @@ function App() {
   return (
     <div className='App' style={{backgroundImage: `url(${Cute})`}}>
       <div className='container'>
+      <Title title="💍 Wedding Day 💒💕"/>
         <Title title="🧔🏼‍♂️❤️👩🏾‍🦱 Mr. & Mrs. Maher"/>
-        <Title title="💍 Wedding Day 💒💕"/>
         <div className="countdown-container">
           <Counter title="Days" number={day}/>
           <Counter title="Hours" number={hour}/>
